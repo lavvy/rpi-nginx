@@ -1,4 +1,5 @@
-FROM resin/rpi-raspbian:wheezy
+#FROM resin/rpi-raspbian:wheezy
+FROM armv7/armhf-ubuntu:14:04
 MAINTAINER Markus Fix <lispmeister@gmail.com>
 
 RUN apt-get update && \
